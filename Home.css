@@ -14,19 +14,83 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px 20px;
+	padding: 5px 20px;
 	max-width: 1200px;
 	margin: 0 auto;
 }
 .nav, .ul, #li {
-	display:inline-block;
+	display:flex;
+	margin-left: 20px;
+	flex-direction: row;
+	justify-content: flex-start;
+
+}
+
+#li {
 	margin-left: 20px;
 }
 
 #img{
   float: inline-start;
   justify-content: center;
+  margin-left: -20px;
 }
+
+.logo-text{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.nav .ul #li:first-child {
+	margin-left: 0;
+}
+
+
+.nav #a:hover{
+	color: #c41616;
+}
+#logout{
+
+	display: inline;
+	margin-left: 600px;
+	justify-content: center;
+}
+
+#style{
+	float: inline-end;
+	margin-left: 3px;
+}
+
+/* CardStyle.css */
+.cards-align{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+  
+  #text-color{
+	color: black;
+  }
+
+  #icon{
+	float: inline-end;
+	margin-top: -80px;
+  }
+
+  #icon1{
+	float: inline-end;
+	margin-top: -80px;
+	color: black;
+  }
+
+  #arrow-icon{
+	float: inline-end;
+  }
+
+  #arrow-icon1{
+	float: inline-end;
+	color: black;
+  }
 
 .nav .ul #li:first-child {
 	margin-left: 0;
